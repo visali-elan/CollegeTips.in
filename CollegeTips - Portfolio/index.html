@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Visali | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .bg-tech {
+      background: linear-gradient(135deg, #ff5757, #ffd857);
+    }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white scroll-smooth">
+
+  <!-- Navbar -->
+  <header class="bg-tech text-black px-6 py-4 shadow-lg fixed top-0 w-full z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">Tech Kung Fu Panda 🐼</h1>
+      <nav class="space-x-4 text-sm font-semibold">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#about" class="hover:underline">About</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Home Section -->
+<section id="home" class="relative min-h-screen flex flex-col justify-center items-center px-6 text-center pt-28">
+  <!-- Background Image Layer -->
+  <div class="absolute inset-0 bg-cover bg-center opacity-30" style="background-image: url('bg1.jpg'); z-index: -1;"></div>
+
+  <!-- Content Layer -->
+  <h2 class="text-4xl font-extrabold mb-4">I’m the Tech Kung Fu Panda 🐼</h2>
+  <p class="text-lg text-zinc-300 max-w-xl">
+    Calm like a monk, lethal with code. I blend creativity, skill, and tech precision—just like a spinning roundhouse kick but in JavaScript.
+  </p>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-zinc-900 px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">My Code Dojo 🧪</h3>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <!-- Project 1 -->
+      <div class="bg-zinc-800 rounded-2xl shadow-lg p-6 hover:bg-zinc-700 transition">
+        <h4 class="text-xl font-semibold mb-2">💡 ElevateU</h4>
+        <p class="text-zinc-300 text-sm">
+          A website which lets the students to teach eachother a skill and earn points, and with that points they can also learn a skill. So its a win-win!
+        </p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="bg-zinc-800 rounded-2xl shadow-lg p-6 hover:bg-zinc-700 transition">
+        <h4 class="text-xl font-semibold mb-2">🧠 NeuroScan</h4>
+        <p class="text-zinc-300 text-sm">
+          A brain tumor detection application AI and ML integrated to predict tumor, stage and produce a medical report with diet plans and suggestions.
+        </p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="bg-zinc-800 rounded-2xl shadow-lg p-6 hover:bg-zinc-700 transition">
+        <h4 class="text-xl font-semibold mb-2">📈 Newsify</h4>
+        <p class="text-zinc-300 text-sm">
+          All-in-one news provider application where entertainment, education, sports, business, finance and etc.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">The Vibe Check!</h3>
+    <div class="max-w-3xl mx-auto text-center text-zinc-300">
+      <p class="text-lg">
+        I'm not just a developer, I'm a vibe. Whether I'm debugging in my hoodie at midnight or brainstorming UI like a poet, I bring full energy into my craft. Passion, resilience, curiosity and yeah, sometimes my paint brushes! 💻🎨🖌
+      </p>
+    </div>
+  </section>
+
+  <!-- Resume Download -->
+  <section class="text-center py-10 bg-tech text-black">
+    <a href="Visali - Resume.pdf" download class="bg-black text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-zinc-800 transition">
+      📄 Download Resume
+    </a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 px-6 bg-zinc-900">
+    <h3 class="text-3xl font-bold text-center mb-10">Reach Out 👋</h3>
+    <div class="max-w-xl mx-auto space-y-4 text-center text-zinc-300">
+      <p>Whether it’s a collab, a question, or just fan mail—hit me up!</p>
+      <div class="flex justify-center space-x-6 mt-6">
+        <a href="mailto:visaliela28@gmail.com" class="hover:text-white">📧 Email</a>
+        <a href="https://github.com/visali-elan" target="_blank" class="hover:text-white">🐱 GitHub</a>
+        <a href="https://www.linkedin.com/in/visali-e/" target="_blank" class="hover:text-white">🔗 LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-6 text-zinc-500 text-sm bg-zinc-950">
+    © 2025 Tech Kung Fu Panda. Keep coding, Keep kicking.
+  </footer>
+
+</body>
+</html>
